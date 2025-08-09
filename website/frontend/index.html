@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drowsiness Detection</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Drowsiness Detection System</h1>
+  <div class="buttons">
+    <button onclick="startCamera()">Start</button>
+    <button onclick="stopCamera()">Stop</button>
+    <button onclick="stopAlarm()">Stop Alarm</button>
+  </div>
+
+    <div id="alert" class="hidden">
+        <span>⚠️ DROWSINESS DETECTED! ⚠️</span>
+    </div>
+
+  <div id="video-container">
+    <img id="video" alt="Live Feed" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
