@@ -1,0 +1,10 @@
+opencv-python
+numpy
+matplotlib
+tensorflow
+keras
+jupyter
+scikit-learn
+pandas
+Pillow
+playsound
